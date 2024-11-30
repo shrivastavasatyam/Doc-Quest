@@ -20,6 +20,13 @@ DocQuest is an offline Retrieval-Augmented Generation (RAG) system designed for 
 - **Optimized RAG Pipeline**: Includes intelligent query processing and high-precision document retrieval
 - **User-Friendly Interface**: Streamlit-based UI for easy interaction
 
+## Data Sources:
+
+The system integrates documentation from multiple sources, including:
+- Pandas
+- NumPy
+- Scikit-learn
+
 ## Folder Structure:
 
 ```
@@ -104,17 +111,6 @@ DOC-QUEST/
 - **Embedding Models**: gte-large-en-v1.5, gte-large, stella_en_400M_v5
 - **Vector Storage**: Chroma, FAISS
 - **Text Generation**: Utilizes the llama-3.1-70b model
-
-## Data Sources:
-
-The system integrates documentation from multiple sources, including:
-- Pandas
-- NumPy
-- Scikit-learn
-
-## Evaluation:
-
-***WORK IN PROGRESS***
 
 ## Future Improvements:
 
