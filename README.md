@@ -1,6 +1,5 @@
 # DocQuest 🔍: In-House Retrieval-Augmented Generation (RAG) System
 
-__Specific Research Question:__
 How can we design and optimize a RAG system to provide personalized, reference-rich outputs for data science teams, while managing in-house packages, in an offline environment?
 
 To break it down further:
