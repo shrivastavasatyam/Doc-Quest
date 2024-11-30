@@ -63,7 +63,7 @@ DOC-QUEST/
 1. Clone the repository:
    ```
    git clone https://github.com/shrivastavasatyam/Doc-Quest.git
-   cd golden-retriever
+   cd Doc-Quest
    ```
 
 2. Set up a virtual environment:
