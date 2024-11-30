@@ -25,11 +25,11 @@ DocQuest is an offline Retrieval-Augmented Generation (RAG) system designed for 
 ```
 DOC-QUEST/
 │
-├── data/                           # Data storage
+├── data/                           # Folder for data/documents
 │   ├── documents/                  # Raw or processed document storage
 │   └── vector_db/                  # Vector databases
-│       ├── child_docs/             # Embeddings for child documents
-│       └── parent_docs/            # Embeddings for parent documents
+│       ├── child_docs/             # Child documents
+│       └── parent_docs/            # Parent documents
 │
 ├── notebooks/                      # Jupyter notebooks for prototyping and experimentation
 │   ├── 1_documentation_download.ipynb
@@ -46,9 +46,9 @@ DOC-QUEST/
 │   ├── 4_conversation_rag.py
 │
 ├── .gitignore                      # Specifies files/folders to ignore in version control
-├── doc_quest_app.py                # Main application entry point
+├── doc_quest_app.py                # DocQuest UI streamlit application
 ├── README.md                       # Project documentation
-└── requirements.txt                # Python dependencies
+└── requirements.txt                # Dependencies for the project
 ```
 
 ## Installation:
@@ -91,7 +91,7 @@ DOC-QUEST/
 
 1. Launch the Streamlit app:
    ```
-   streamlit run streamlit_app.py
+   streamlit run doc_quest_app.py
    ```
 
 2. Access the web interface at the URL provided by Streamlit (usually `http://localhost:8501`).
