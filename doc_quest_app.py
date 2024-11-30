@@ -79,8 +79,8 @@ model_name = "Alibaba-NLP/gte-large-en-v1.5"
 embeddings = load_embeddings(_model_name=model_name)
 
 # locate parent and child documents
-parent_doc_path = "./vector_db/parent_docs"
-child_doc_path = "./vector_db/child_docs"
+parent_doc_path = "../data/vector_db/parent_docs"
+child_doc_path = "../data/vector_db/child_docs"
 
 # This text splitter is used to create the parent documents
 parent_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
