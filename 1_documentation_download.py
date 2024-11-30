@@ -31,7 +31,7 @@ Parameters:
 url = 'https://pandas.pydata.org/pandas-docs/stable/pandas.zip'
 
 # Path to save the downloaded file
-zip_file_path = '../documents/pandas_docs.zip'
+zip_file_path = '../data/documents/pandas_docs.zip'
 
 # Download the file
 response = requests.get(url)
@@ -39,7 +39,7 @@ with open(zip_file_path, 'wb') as file:
     file.write(response.content)
 
 # Create a directory to extract the contents
-extract_dir = '../documents/pandas_docs'
+extract_dir = '../data/documents/pandas_docs'
 os.makedirs(extract_dir, exist_ok=True)
 
 # Extract the zip file
@@ -58,7 +58,7 @@ print(f'Documentation downloaded and extracted to {extract_dir}')
 url = 'https://scikit-learn.org/stable//_downloads/scikit-learn-docs.zip'
 
 # Path to save the downloaded file
-zip_file_path = '../documents/scikit_learn_docs.zip'
+zip_file_path = '../data/documents/scikit_learn_docs.zip'
 
 # Download the file
 response = requests.get(url)
@@ -66,7 +66,7 @@ with open(zip_file_path, 'wb') as file:
     file.write(response.content)
 
 # Create a directory to extract the contents
-extract_dir = '../documents/scikit_learn_docs'
+extract_dir = '../data/documents/scikit_learn_docs'
 os.makedirs(extract_dir, exist_ok=True)
 
 # Extract the zip file
@@ -85,7 +85,7 @@ print(f'Documentation downloaded and extracted to {extract_dir}')
 url = 'https://numpy.org/doc/2.0/numpy-html.zip'
 
 # Path to save the downloaded file
-zip_file_path = '../documents/numpy_docs.zip'
+zip_file_path = '../data/documents/numpy_docs.zip'
 
 # Download the file
 response = requests.get(url)
@@ -93,7 +93,7 @@ with open(zip_file_path, 'wb') as file:
     file.write(response.content)
 
 # Create a directory to extract the contents
-extract_dir = '../documents/numpy_docs'
+extract_dir = '../data/documents/numpy_docs'
 os.makedirs(extract_dir, exist_ok=True)
 
 # Extract the zip file

@@ -35,7 +35,7 @@ from langchain.storage import LocalFileStore
 
 
 # Load pre-processed Pandas documentation
-path = '../documents/processed_docs/pandas_docs.pkl'
+path = '../data/documents/processed_docs/pandas_docs.pkl'
 
 # Load data from a file
 with open(path, 'rb') as file:
@@ -142,8 +142,8 @@ memory_check()
 
 # Initialize vector database and document retriever
 
-parent_doc_path = "/home/agrawal.bi/DS5500/vector_db/parent_docs"
-child_doc_path = "../vector_db/child_docs"
+parent_doc_path = "../data/vector_db/parent_docs"
+child_doc_path = "../data/vector_db/child_docs"
 
 
 # In[13]:
@@ -262,7 +262,7 @@ loaded_retriever.invoke("how can I handle irregularly spaced time series data, i
 
 
 # Define the path
-path = '../documents/processed_docs/scikit_learn_docs.pkl'
+path = '../data/documents/processed_docs/scikit_learn_docs.pkl'
 
 # Load data from a file
 with open(path, 'rb') as file:
@@ -307,7 +307,7 @@ loaded_retriever.invoke("I am getting an error while try to normalize the data")
 
 
 # Define the path
-path = '../documents/processed_docs/numpy_docs.pkl'
+path = '../data/documents/processed_docs/numpy_docs.pkl'
 
 # Load data from a file
 with open(path, 'rb') as file:

@@ -111,8 +111,8 @@ check_mps_memory()
 # In[8]:
 
 
-parent_doc_path = "/Users/mehuljain/Documents/course_related/Capstone/rag_ds5500/vector_db/parent_docs"
-child_doc_path = "../vector_db/child_docs"
+parent_doc_path = "../data/vector_db/parent_docs"
+child_doc_path = "../data/vector_db/child_docs"
 
 
 # In[9]:

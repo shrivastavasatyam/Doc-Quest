@@ -58,7 +58,7 @@ def load_html_files(base_path, include_folders):
 
 # Example usage for Pandas documentation
 
-pandas_file_path = "../documents/pandas_docs/"
+pandas_file_path = "../data/documents/pandas_docs/"
 pandas_include_folders = ['development', 'getting_started', 'reference/api', 'user_guide', 'whatsnew']
 pandas_html_files = load_html_files(pandas_file_path, pandas_include_folders)
 
@@ -155,7 +155,7 @@ len(pandas_data)
 
 
 # Define the old and new base URLs
-pandas_old_base_url = "../documents/pandas_docs"
+pandas_old_base_url = "../data/documents/pandas_docs"
 pandas_new_base_url = "https://pandas.pydata.org/docs"
 
 
@@ -221,7 +221,7 @@ len(pandas_data)
 
 # Save the processed data to a file
 # Define the path
-path = '../documents/processed_docs/pandas_docs.pkl'
+path = '../data/documents/processed_docs/pandas_docs.pkl'
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -288,7 +288,7 @@ def parallel_load(html_files):
 # In[4]:
 
 
-scikit_learn_file_path = "../documents/scikit_learn_docs/"
+scikit_learn_file_path = "../data/documents/scikit_learn_docs/"
 scikit_learn_include_folders = ['auto_examples', 'computing', 
                                'datasets', 'modules', 'developers', 'whats_new', 'notebooks']
 scikit_learn_html_files = load_html_files(scikit_learn_file_path, scikit_learn_include_folders)
@@ -316,7 +316,7 @@ len(scikit_learn_data)
 
 
 # Define the old and new base URLs
-scikit_learn_old_base_url = "../documents/scikit_learn_docs"
+scikit_learn_old_base_url = "../data/documents/scikit_learn_docs"
 scikit_learn_new_base_url = "https://scikit-learn.org/stable"
 
 
@@ -399,7 +399,7 @@ len(scikit_learn_data)
 
 
 # Define the path
-path = '../documents/processed_docs/scikit_learn_docs.pkl'
+path = '../data/documents/processed_docs/scikit_learn_docs.pkl'
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -466,7 +466,7 @@ def parallel_load(html_files):
 # In[8]:
 
 
-numpy_file_path = "../documents/numpy_docs/"
+numpy_file_path = "../data/documents/numpy_docs/"
 numpy_include_folders = ['user', 'reference', 
                                'building', 'dev', 'f2py', 'release']b
 numpy_html_files = load_html_files(numpy_file_path, numpy_include_folders)
@@ -489,7 +489,7 @@ len(numpy_html_files)
 
 
 # Define the old and new base URLs
-numpy_old_base_url = "../documents/numpy_docs"
+numpy_old_base_url = "../data/documents/numpy_docs"
 numpy_new_base_url = "https://numpy.org/doc/stable"
 
 
@@ -561,7 +561,7 @@ len(numpy_data)
 
 
 # Define the path
-path = '../documents/processed_docs/numpy_docs.pkl'
+path = '../data/documents/processed_docs/numpy_docs.pkl'
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(path), exist_ok=True)
